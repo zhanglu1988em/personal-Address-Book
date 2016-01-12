@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6618F7A1C454A0800A4CD48 /* EditContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6618F791C454A0800A4CD48 /* EditContactViewController.m */; };
 		A6A9FE091C429E8500D1710C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9FE081C429E8500D1710C /* main.m */; };
 		A6A9FE0C1C429E8500D1710C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9FE0B1C429E8500D1710C /* AppDelegate.m */; };
 		A6A9FE0F1C429E8500D1710C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9FE0E1C429E8500D1710C /* ViewController.m */; };
 		A6A9FE121C429E8500D1710C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A9FE101C429E8500D1710C /* Main.storyboard */; };
 		A6A9FE141C429E8500D1710C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A9FE131C429E8500D1710C /* Assets.xcassets */; };
 		A6A9FE171C429E8500D1710C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A9FE151C429E8500D1710C /* LaunchScreen.storyboard */; };
+		A6A9FE241C42A7C800D1710C /* ContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A9FE231C42A7C800D1710C /* ContactTableViewController.m */; };
+		A6C09CDF1C43F31400ACA748 /* ContactMode.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C09CDE1C43F31400ACA748 /* ContactMode.m */; };
+		A6C09CE21C43F59A00ACA748 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C09CE11C43F59A00ACA748 /* AddContactViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6618F781C454A0800A4CD48 /* EditContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditContactViewController.h; sourceTree = "<group>"; };
+		A6618F791C454A0800A4CD48 /* EditContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditContactViewController.m; sourceTree = "<group>"; };
 		A6A9FE041C429E8500D1710C /* 私人通信录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "私人通信录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A9FE081C429E8500D1710C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6A9FE0A1C429E8500D1710C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,12 @@
 		A6A9FE131C429E8500D1710C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6A9FE161C429E8500D1710C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6A9FE181C429E8500D1710C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A9FE221C42A7C800D1710C /* ContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewController.h; sourceTree = "<group>"; };
+		A6A9FE231C42A7C800D1710C /* ContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewController.m; sourceTree = "<group>"; };
+		A6C09CDD1C43F31400ACA748 /* ContactMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactMode.h; sourceTree = "<group>"; };
+		A6C09CDE1C43F31400ACA748 /* ContactMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactMode.m; sourceTree = "<group>"; };
+		A6C09CE01C43F59A00ACA748 /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
+		A6C09CE11C43F59A00ACA748 /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 		A6A9FE061C429E8500D1710C /* 私人通信录 */ = {
 			isa = PBXGroup;
 			children = (
+				A6A9FE1E1C42A76600D1710C /* classes */,
 				A6A9FE0A1C429E8500D1710C /* AppDelegate.h */,
 				A6A9FE0B1C429E8500D1710C /* AppDelegate.m */,
 				A6A9FE0D1C429E8500D1710C /* ViewController.h */,
@@ -77,6 +90,45 @@
 				A6A9FE081C429E8500D1710C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6A9FE1E1C42A76600D1710C /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A6A9FE211C42A77E00D1710C /* view */,
+				A6A9FE201C42A77700D1710C /* mode */,
+				A6A9FE1F1C42A76F00D1710C /* controller */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		A6A9FE1F1C42A76F00D1710C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6A9FE221C42A7C800D1710C /* ContactTableViewController.h */,
+				A6A9FE231C42A7C800D1710C /* ContactTableViewController.m */,
+				A6C09CE01C43F59A00ACA748 /* AddContactViewController.h */,
+				A6C09CE11C43F59A00ACA748 /* AddContactViewController.m */,
+				A6618F781C454A0800A4CD48 /* EditContactViewController.h */,
+				A6618F791C454A0800A4CD48 /* EditContactViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		A6A9FE201C42A77700D1710C /* mode */ = {
+			isa = PBXGroup;
+			children = (
+				A6C09CDD1C43F31400ACA748 /* ContactMode.h */,
+				A6C09CDE1C43F31400ACA748 /* ContactMode.m */,
+			);
+			name = mode;
+			sourceTree = "<group>";
+		};
+		A6A9FE211C42A77E00D1710C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6618F7A1C454A0800A4CD48 /* EditContactViewController.m in Sources */,
 				A6A9FE0F1C429E8500D1710C /* ViewController.m in Sources */,
+				A6C09CE21C43F59A00ACA748 /* AddContactViewController.m in Sources */,
 				A6A9FE0C1C429E8500D1710C /* AppDelegate.m in Sources */,
+				A6A9FE241C42A7C800D1710C /* ContactTableViewController.m in Sources */,
 				A6A9FE091C429E8500D1710C /* main.m in Sources */,
+				A6C09CDF1C43F31400ACA748 /* ContactMode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +354,7 @@
 				A6A9FE1D1C429E8500D1710C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
